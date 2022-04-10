@@ -50,7 +50,7 @@ ul a{
     flex-direction: column;
     gap: 8px;
 }
-.section1 .media .title{
+.media .title{
     font-weight: bolder;
     font-size: 40px;
 }
@@ -82,7 +82,7 @@ button{
     font-size: small;
     align-items: center;
 }
-.content .title{
+#alone-title{
     margin-top: 25px;
     align-self: center;
     color:#1F2937;
