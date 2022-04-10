@@ -117,7 +117,24 @@ ul a{
 
 
 .section3{
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+.section3 .quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: lighter;
+}
+.section3 .author{
+    font-weight: bolder;
+    align-self: flex-end;
+    padding-right: 120px;
+}
+.section3 .quote span{
+    text-align: end;
 }
 footer{
     margin: auto;
