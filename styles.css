@@ -73,6 +73,8 @@ ul a{
 }
 .section1 img{
     border-radius: 75px;
+    align-self: center;
+    height: auto;
 }
 .footer{
     height: 40px;
@@ -89,15 +91,34 @@ ul a{
 }
 .content .section2{
     display: flex;
+    gap: 18px;
+    justify-content: center;
     align-items: center;
     padding: 48px;
+    padding-bottom: 100px;
 }
 .section2 .media{
     display:flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    width:150px;
+
+}
+.section2 .image{
+
+    align-self: center;
+    flex-shrink: 0;
+}
+.section2 img{
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
 }
 
+
+
+.section3{
+    background-color: #e5e7eb;
+}
 footer{
     margin: auto;
 }
