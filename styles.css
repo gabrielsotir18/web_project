@@ -36,7 +36,7 @@ ul a{
 }
 
 .section1{
-    padding: 50px;
+    padding: 100px 200px;
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -68,15 +68,34 @@ ul a{
     border-radius: 7px;
 }
 .section1 .image{
-    background-color: gray;
     flex: 1;
-    align-self: stretch;
+    align-self: center;
+}
+.section1 img{
+    border-radius: 75px;
 }
 .footer{
     height: 40px;
     font-weight:lighter;
     font-size: small;
     align-items: center;
+}
+.content .title{
+    margin-top: 25px;
+    align-self: center;
+    color:#1F2937;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.content .section2{
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+.section2 .media{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 footer{
