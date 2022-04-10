@@ -50,7 +50,7 @@ ul a{
     flex-direction: column;
     gap: 8px;
 }
-.media .title{
+.section1 .media .title{
     font-weight: bolder;
     font-size: 40px;
 }
@@ -58,7 +58,7 @@ ul a{
 .media .text{
     color: rgb(133, 133, 133);
 }
-.media button{
+button{
     width: 100px;
     height: 35px;
     background-color: #3882f6;
@@ -103,6 +103,9 @@ ul a{
     width:150px;
 
 }
+.section2 #sus{
+    transform: scaleX(-1);
+}
 .section2 .image{
 
     align-self: center;
@@ -135,6 +138,40 @@ ul a{
 }
 .section3 .quote span{
     text-align: end;
+}
+
+
+.section4{
+    margin:70px 150px;
+    color: white;
+    padding: 50px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.section4 .title{
+    margin:0;
+    align-self: flex-start;
+    color: white;
+}
+.section4 .subsection4{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    
+}
+
+.section4 .sign-up-button{
+    flex:1;
+    align-self: center;
+}
+.section4 button{
+    background-color: #3882f6;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 footer{
     margin: auto;
